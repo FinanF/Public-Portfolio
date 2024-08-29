@@ -50,7 +50,7 @@ public class FinanceManager {
 				try {
 					LocalDateTime myDateObj = LocalDateTime.now();
 					DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-					System.out.println("\n***FINANCE MANAGER***\n1. Add info, 2. Search query, 3. Print All, 4. Remove info, 5. Export table to CVS, 6. Exit");
+					System.out.println("\n***FINANCE MANAGER***\n1. Add info, 2. Search query, 3. Print All, 4. Remove info, 5. Export table to CSV, 6. Exit");
 					int answer=sc.nextInt();
 					switch (answer) {
 						case 1: {
